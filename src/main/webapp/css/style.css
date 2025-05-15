@@ -1,0 +1,60 @@
+body {
+    align-items: center;
+}
+
+.btn {
+    background-color: #00BB00;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    transition:
+            all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00EE00;
+    border-radius: 9px;
+    box-shadow: 0 0 25px 3px rgba(0, 238, 0, 0.75);
+}
+
+.content-form {
+    display: grid;
+    gap: 5px;
+    justify-items: center;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Arial Black";
+
+}
+
+input {
+    width: 400px;
+    font-size: 18px;
+    font-family: "Arial";
+    border-radius: 5px;
+    border: none;
+    background-color: #BBB;
+    height: 30px;
+    transition:
+            all 0.3s ease;
+}
+
+input:hover {
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+    background-color: #888;
+}
+
+input:focus {
+    box-shadow: 0 0 25px 0 rgba(0, 100, 0, 0.5);
+}
+
+th {
+    background-color: #CCC;
+    height: 50px;
+}
+
+table {
+    width: 100%;
+}
+
